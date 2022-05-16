@@ -100,3 +100,17 @@ a:active{
 .my-form input[type="text"], textarea{
   width: 100%;
 }
+
+.button{
+  background-color: blueviolet;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  width: 30%;
+  color: white;
+}
+
+.button:hover{
+  background-color: green;
+  color: gold;
+}
