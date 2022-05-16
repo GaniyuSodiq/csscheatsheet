@@ -73,6 +73,7 @@ a:active{
   border: 1px dotted #ccc;
   padding: 10px;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .categories h2{
@@ -90,4 +91,12 @@ a:active{
   padding-bottom: 6px;
   border-bottom: 3px #ccc dotted;
   list-style-image: url('../images/check.png');
+}
+
+.my-form label{
+  display: block;
+}
+
+.my-form input[type="text"], textarea{
+  width: 100%;
 }
