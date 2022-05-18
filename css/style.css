@@ -97,6 +97,10 @@ a:active{
   display: block;
 }
 
+.my-form{
+  margin-bottom: 20px;
+}
+
 .my-form input[type="text"], textarea{
   width: 100%;
 }
@@ -113,4 +117,13 @@ a:active{
 .button:hover{
   background-color: green;
   color: gold;
+}
+
+.block{
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px purple solid;
+  margin: 2px;
 }
