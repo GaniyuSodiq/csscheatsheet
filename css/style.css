@@ -21,6 +21,10 @@ body{
   line-height: 1.6em;
 }
 
+.clr{
+  clear: both;
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -125,5 +129,23 @@ a:active{
   box-sizing: border-box;
   padding: 20px;
   border: 1px purple solid;
-  margin: 2px;
+  /* margin-right: 2px; */
+  text-align: center;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 5px;
+  box-sizing: border-box;
+  color: purple;
+}
+#sidebar{
+  float: left;
+  width: 30%;
+  background-color: purple;
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
