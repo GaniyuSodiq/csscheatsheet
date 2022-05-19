@@ -149,3 +149,23 @@ a:active{
   box-sizing: border-box;
   margin-top: 20px;
 }
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid purple;
+  margin-top: 20px;
+  position: relative;
+}
+
+.p-box h1{
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 40px;
+  right: 200px;
+}
